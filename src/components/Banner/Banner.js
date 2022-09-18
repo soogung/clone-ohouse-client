@@ -4,13 +4,11 @@ import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/scss";
 import "swiper/scss/navigation";
 import "swiper/scss/pagination";
-import {useState} from "react";
 import {Link} from "react-router-dom";
 
 SwiperCore.use([ Pagination, Autoplay])
 
 function Banner(props){
-    const[activeIndex, setActiveIndex] = useState(1)
     return(
         <div className='banner_tit'>
             <div className='banner-swiper'>

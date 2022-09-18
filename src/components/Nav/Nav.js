@@ -1,6 +1,7 @@
-
-import React, {useState} from "react";
+import Navcategory from "../Nav_category/Nav_category";
+import CategoryData from './category.json';
 import './Nav.scss';
+
 export default function Nav(){
     return(
         <body>
@@ -14,6 +15,11 @@ export default function Nav(){
                             </div>
                             <div className="nav-category">
                                 <li>카테고리</li>
+                            </div>
+                            <div className="nav-category--category">
+                                <Navcategory
+                                    category={CategoryData.categorys}
+                                />
                             </div>
                             <div>
                                 <li>베스트</li>
