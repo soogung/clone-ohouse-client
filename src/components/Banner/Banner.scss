@@ -1,0 +1,20 @@
+@import '../../styles/common.scss';
+.banner_tit{
+    .banner-swiper{
+        
+    width: 100vw;
+        .banner--image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.swiper .swiper-pagination {
+  }
+  .swiper .swiper-pagination-bullet {
+    width: 6.5px;
+    height: 6.5px;
+    background-color: hsla(0,0%,100%,.7);
+    box-shadow: 0 1px 6px 0 black;
+    margin: 0 3px !important;
+  }

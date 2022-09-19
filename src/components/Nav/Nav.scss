@@ -1,0 +1,40 @@
+@import "../../styles/common";  
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.nav-total-tit{
+}
+.Nav_total{
+    .Nav_tit{
+        display: flex;
+        .Nav_front{
+            .Nav_front_nav{
+                div{  
+                    float: left;
+                    margin: 0 5px;
+                    li{
+                        list-style: none;
+                        font-size: 15px;
+                        line-height: 20px;
+                        position: relative;
+                        font-weight: 540;
+                        font-family: 'Poppins', sans-serif;
+                        
+                        &:hover{
+                            color: $font-blue;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }  
+        } 
+        .Nav_back{
+            .Nav_back_a{
+                color: $font-blue;
+                font-weight: 700;
+            }
+        }
+    }
+}
