@@ -1,99 +1,99 @@
 {
-    "categorys": [
+    "category": [
       {
         "id": 1,
-        "title": "식품",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-166061294842162442.png/1280/none",
+        "name": "식품",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-166061294842162442.png/1280/none",
         "toLink": ""
       },
       {
         "id": 2,
-        "title": "가구",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165698405465057590.png/1280/none",
+        "name": "가구",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165698405465057590.png/1280/none",
         "toLink": ""
       },
       {
         "id": 3,
-        "title": "패브릭",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-166010551527923872.png/1280/none",
+        "name": "패브릭",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-166010551527923872.png/1280/none",
         "toLink": ""
       },
       {
         "id": 4,
-        "title": "가전",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-166072987520626215.png/1280/none",
+        "name": "가전",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-166072987520626215.png/1280/none",
         "toLink": ""
       },
       {
         "id": 5,
-        "title": "조명",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165580419546547100.png/1280/none",
+        "name": "조명",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165580419546547100.png/1280/none",
         "toLink": ""
       },
       {
         "id": 6,
-        "title": "주방용품",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165580420382620877.png/1280/none",
+        "name": "주방용품",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165580420382620877.png/1280/none",
         "toLink": ""
       },
       {
         "id": 7,
-        "title": "데코/식물",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835982382781033.png/1280/none",
+        "name": "데코/식물",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835982382781033.png/1280/none",
         "toLink": ""
       },
       {
         "id": 8,
-        "title": "수납/정리",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165580420728645403.png/1280/none",
+        "name": "수납/정리",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165580420728645403.png/1280/none",
         "toLink": ""
       },
       {
         "id": 9,
-        "title": "생활용품",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-163609846171803764.png/1280/none",
+        "name": "생활용품",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-163609846171803764.png/1280/none",
         "toLink": ""
       },
       {
         "id": 10,
-        "title": "생필품",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165579984972500884.png/1280/none",
+        "name": "생필품",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165579984972500884.png/1280/none",
         "toLink": ""
       },
       {
         "id": 11,
-        "title": "공구/DIY",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835985103343415.png/1280/none",
+        "name": "공구/DIY",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835985103343415.png/1280/none",
         "toLink": ""
       },
       {
         "id": 12,
-        "title": "인테리어시공",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835985751246256.png/1280/none",
+        "name": "인테리어시공",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835985751246256.png/1280/none",
         "toLink": ""
       },
       {
         "id": 13,
-        "title": "반려동물",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835986432363224.png/1280/none",
+        "name": "반려동물",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835986432363224.png/1280/none",
         "toLink": ""
       },
       {
         "id": 14,
-        "title": "캠핑용품",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165588441030460209.png/1280/none",
+        "name": "캠핑용품",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165588441030460209.png/1280/none",
         "toLink": ""
       },
       {
         "id": 15,
-        "title": "실내운동",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835987414167522.png/1280/none",
+        "name": "실내운동",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-162835987414167522.png/1280/none",
         "toLink": ""
       },
       {
         "id": 16,
-        "title": "렌탈",
-        "iconImage": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165588441453307734.png/1280/none",
+        "name": "렌탈",
+        "img": "https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-category-store_hamburger_categories-165588441453307734.png/1280/none",
         "toLink": ""
       }
     ]

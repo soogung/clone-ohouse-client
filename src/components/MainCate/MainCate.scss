@@ -1,0 +1,44 @@
+@import "../../styles/common";  
+.MainCate-bigdiv{
+    .Main-Cate-bignav{
+        padding: 0px 0px;
+        .Main-Cate-one-block-bigul{
+            list-style: none;
+            width: 100%;
+            align-items: flex-start;
+            -webkit-box-pack: start;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            box-sizing: border-box;
+            margin: 48px 0px 10px;
+            .Main-Cate-one-block{
+                position: relative;
+                display: inline-block;
+                flex: 0 0 10%;
+                float: left;  
+                .Main-a{                 
+                    .Main-Cate-one-block-image{
+                        padding: 0px 24px;
+                        margin-top: 6px;
+                        img{
+                            width: 59px;
+                            border-radius: 30%;
+                        
+                        }
+                    }
+                }
+                .Main-Cate-one-block-name{
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: grid;
+                    text-align: center;
+                    color: rgb(47, 52, 56);
+                    margin-top: 8px;
+                    span{
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+section{
+}
+.main-category-maincate{
+    display: flex;
+    justify-content: center;
+}
+.sub-category-subcate{
+    padding-top: 40px;
+    width: 1075px;
+    margin: 0 auto;
+    .sub-category-categorytit{
+        
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+}
