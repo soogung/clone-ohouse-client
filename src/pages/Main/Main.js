@@ -13,7 +13,9 @@ export default function Main(){
     SwiperCore.use([Navigation])
     return(
         <section className='Main-section'>
-            <Nav />
+            <div className='main-nav'>
+                <Nav />
+            </div>
             <Banner
                 banner={BannerData.banners}
             />
