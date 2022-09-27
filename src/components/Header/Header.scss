@@ -1,6 +1,13 @@
 @import "../../styles/common";
 
+.header_body{
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+}
 header {
+  z-index: 6;
   width: 1256px;
   min-width: 1256px;
   height: 80px;

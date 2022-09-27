@@ -2,6 +2,7 @@ import "./Header.scss";
 
 export default function Header() {
     return (
+        <div className="header_body">
         <header className="header">
             <div className="logo-wrapper">
                 <div className="logo">
@@ -66,6 +67,6 @@ export default function Header() {
                     <span className="_chevron_down_18 down-icon"/>
                 </button>
             </div>
-        </header>
+        </header></div>
     );
 }
