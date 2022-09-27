@@ -6,7 +6,7 @@ import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 import {Link} from "react-router-dom";
 
-SwiperCore.use([ Pagination, Autoplay])
+SwiperCore.use([ Pagination, Autoplay ])
 
 function Banner(props){
     return(
@@ -30,7 +30,9 @@ function Banner(props){
                     ))
                     }
                 </Swiper>
+                
             </div>
+            
         </div>
     )
 }

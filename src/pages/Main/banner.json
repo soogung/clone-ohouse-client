@@ -2,42 +2,52 @@
     "banners": [
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261806216437985.png?gif=1&w=2560&q=100",
+        "name": "BEST 패브릭",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261820823553835.png?gif=1&w=2560&q=100",
+        "name": "키친웨어 BEST",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261837863536452.png?gif=1&w=2560&q=100",
+        "name": "일주일 SALE",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261859880336331.png?gif=1&w=2560&q=100",
+        "name": "1+1SHOP",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261871078546189.jpg?gif=1&w=2560&q=100",
+        "name": "리퍼마켓",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261882541534428.jpg?gif=1&w=2560&q=100",
+        "name": "선착순 핫딜",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261895696696162.png?gif=1&w=2560&q=100",
+        "name": "오! 굿즈",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261917038056416.jpg?gif=1&w=2560&q=100",
+        "name": "빠른배송",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166261931674565247.png?gif=1&w=2560&q=100",
+        "name": "한정 특가",
         "linkTo": ""
       },
       {
         "img": "https://image.ohou.se/i/bucketplace-v2-development/uploads/store/banners/store_home_banners/166313068095035815.png?gif=1&w=2560&q=100",
+        "name": "",
         "linkTo": ""
       }
     ]

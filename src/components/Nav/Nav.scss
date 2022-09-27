@@ -1,33 +1,65 @@
 @import "../../styles/common";  
-body{
+.nav_body{
     display: flex;
     justify-content: center;
-    
+    width: 100vw;
+    background-color: white;
+    z-index: 4;
+    position: fixed;
 }
 .nav-total-tit{
+    width: 1256px;
+    min-width: 1256px;
+    margin: 0 auto;
+    padding: 10px 0px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .Nav_total{
     .Nav_tit{
-        display: flex;
         .Nav_front{
             .Nav_front_nav{
-                div{  
-                    float: left;
-                    margin: 0 5px;
-                    li{
-                        list-style: none;
-                        font-size: 15px;
-                        line-height: 20px;
-                        position: relative;
-                        font-weight: 540;
-                        font-family: 'Poppins', sans-serif;
+                a{
+                    div{  
+                        float: left;
+                        padding: 4px;
+                        li{
+                            margin: 0 5px;
                         
-                        &:hover{
-                            color: $font-blue;
-                            cursor: pointer;
+                            list-style: none;
+                            font-size: 15px;
+                            line-height: 20px;
+                            position: relative;
+                            font-weight: 540;
+                            font-family: 'Poppins', sans-serif;
+                        
+                          &:hover{
+                                color: $font-blue;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    .nav-category{
+                        .nav-category-list{
+                            li{
+                                float: left;
+                                img{
+                                    
+                                }
+                                span{
+
+                                }
+                            }
                         }
                     }
                 }
+                // .nav-category--category{
+                //     display: none;
+                // }
+                // .nav-category:hover .nav-category--category{
+                //     display: block;
+                // }
             }  
         } 
         .Nav_back{
