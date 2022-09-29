@@ -9,6 +9,7 @@ import SubCate from '../../components/SubCate/SubCate';
 import { SwiperSlide, Swiper } from "swiper/react";
 import SwiperCore, {Navigation} from 'swiper';
 import "swiper/scss";
+import Footer from '../../components/Footer/Footer';
 export default function Main(){
     SwiperCore.use([Navigation])
     return(
@@ -34,6 +35,7 @@ export default function Main(){
                 <Swiper
                     spaceBetween={10}
                     slidesPerView={10}
+                    slidesPerGroup={10}
                     navigation    
                 >
                 {
@@ -48,6 +50,7 @@ export default function Main(){
                 }
                 </Swiper>
             </div>
+            <Footer />
         </section>
     )
 }
