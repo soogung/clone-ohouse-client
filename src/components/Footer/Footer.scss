@@ -58,11 +58,15 @@ footer{
                     float: left;
                 }
                 li{
+                    
                     font-size: 10px;
                     line-height: 14px;
                     padding-top: 2px;
                     list-style: none;
                     margin-right: 5px;
+                    &:hover{
+                        cursor: pointer;
+                    }
                 }
             }
         }
