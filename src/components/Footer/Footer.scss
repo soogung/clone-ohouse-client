@@ -1,0 +1,134 @@
+@import '../../styles/common.scss';
+.footer-isle{
+    background-color: #F7F9FA;
+    width: 100%;
+    position: absolute;
+    bottom: 0 auto;
+}
+footer{
+    width: 100vw;
+    height: 100%;
+    .footer-tit{
+        margin: 0 auto;
+        width: 1075px;
+        padding-top: 30px;
+        .footer-tit-div-first{
+            .footer-tit-first-center{
+                .gogaegcenter{
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+                span{
+    
+                }
+            }
+            .footer-tit-first-phonenumber{
+                margin-top: 6px;
+                span{
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-top: 6px;
+                }
+            }
+        }
+        .footer-tit-div-second{
+            float: right;
+            position: relative;
+            Bottom: 40px;
+            ul{
+                a{
+                    margin-right: 14px;
+
+                }
+            }
+        }
+        .footer-tit-div-third{
+            margin-top: 6px;
+            span{
+                font-size: 12px;
+                line-height: 16px;
+                margin-top: 6px;
+            }
+        }
+
+        .footer-tit-div-fourth{
+            padding-top: 2px;
+            ul{
+                #footer-li{ 
+                    float: left;
+                }
+                li{
+                    
+                    font-size: 10px;
+                    line-height: 14px;
+                    padding-top: 2px;
+                    list-style: none;
+                    margin-right: 5px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+        .footer-tit-div-fifth{
+            margin-top: 10px;
+            span{
+                font-size: 10px;
+                color: $dark-gray;
+            }
+        }
+        
+        .footer-tit-div-sixth{
+            margin-top: 10px;
+            margin-right: 8px;
+            span{
+                font-size: 10px;
+                line-height: 16px;
+                color: $dark-gray;
+            }
+        }
+        
+        .footer-tit-div-seventh{
+            margin-top: 10px;
+            span{
+                line-height: 14px;
+                font-size: 10px;
+            }
+        }
+        
+        .footer-tit-div-eight{
+            margin-top: 26px;
+            gap: 20px;
+            .footer-tit-div-eight-first{
+                .footer-tit-div-eight-first-img{
+                    img{
+                        width: 35px;
+                        float: left;
+                    }
+                }
+                .footer-tit-div-eight-first-span{
+                    position: relative;
+                    bottom: 10px;
+                    left: 10px;
+                    span{
+                    height: 10px;
+                        font-size: 10px;
+                        color: $dark-gray;
+                    }
+                }
+            }
+            .footer-tit-div-eight-second{
+                display: inline-block;
+                position: relative;
+                left: 190px;
+                bottom: 44px;
+                div{
+                    img{
+                        width: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
