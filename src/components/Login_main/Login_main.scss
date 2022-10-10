@@ -1,0 +1,98 @@
+.logo-div {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.login-div {
+  margin-top: 25px;
+}
+
+.login-email-input {
+  border: 1px solid #d9d9d9;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  width: 300px;
+  height: 50px;
+  line-height: 3;
+  font-size: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.login-text-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 0px 0px 5px 5px;
+  width: 300px;
+  height: 50px;
+  line-height: 3;
+  font-size: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.login-button-div {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.login-button {
+  background-color: #35c5f0;
+  color: white;
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.login-option-div {
+  padding-top: 20px;
+  text-align: center;
+  a {
+    margin: 10px;
+  }
+}
+
+.sns-signup-div {
+  padding-top: 20px;
+  text-align: center;
+  a {
+    font-size: 12px;
+    color: #757575;
+  }
+}
+
+.sns-icon {
+  display: flex;
+  padding-top: 15px;
+  width: 204px;
+  height: 116px;
+  margin: 0 auto;
+}
+
+.facebook-div {
+  margin: 0 auto;
+}
+
+.kakaotalk-div {
+  margin: 0 auto;
+}
+
+.naver-div {
+  margin: 0 auto;
+}
+
+.login-problem-div {
+  color: rgb(194, 200, 204);
+  font-size: 14px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.grey-line-div {
+  padding-top: 24px;
+  margin: 0 auto;
+  width: 15%;
+  height: 10px;
+  border-bottom: 1px solid rgb(194, 200, 204);
+}
