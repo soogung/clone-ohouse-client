@@ -1,5 +1,5 @@
 import "./Header.scss";
-
+import { Link } from "react-router-dom";
 export default function Header() {
     return (
         <div className="header_body">
@@ -37,7 +37,7 @@ export default function Header() {
                     </span>
                 </a>
                 <a>
-                    <span>
+                    <span className="store">
                         스토어
                     </span>
                 </a>

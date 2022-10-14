@@ -7,14 +7,40 @@
     justify-content: center;
 }
 .sub-category-subcate{
-    padding-top: 40px;
-    width: 1075px;
+    width: 1256px;
+    min-width: 1256px;
+    padding: 10px 60px;
     margin: 0 auto;
     .sub-category-categorytit{
         
         font-weight: 700;
         font-size: 20px;
         margin-bottom: 14px;
+    }
+}
+.product-article-total{
+    .productarticle-header{
+        width: 1256px;
+        min-width: 1256px;
+        height: 80px;
+      
+        margin: 0 auto;
+        padding: 10px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+        h1{
+            color: #000;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        a{
+            margin-right: 7px;
+            color: #f77;
+            font-weight: 700;
+            font-size: 15px;
+        }
     }
 }
 .main-nav{

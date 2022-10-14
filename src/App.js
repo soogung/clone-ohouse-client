@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Main from './pages/Main/Main';
 import Header from "./components/Header/Header";
-
+import ProduceDetail from './pages/ProductDetail/ProductDetail';
 function App() {
     return (
         <div className="App">
@@ -9,6 +9,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Main/>}/>
+                    <Route path="/" element={<ProduceDetail/>}/>
                 </Routes>
             </BrowserRouter>
         </div>

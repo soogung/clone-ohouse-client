@@ -6,7 +6,7 @@
   position: fixed;
   z-index: 5;
 }
-header {
+.header {
   z-index: 6;
   width: 1256px;
   min-width: 1256px;
@@ -32,7 +32,9 @@ header {
 
   .header-nav {
     flex: 1 1 0;
-
+    .store{
+      color: $font-blue;
+    }
     a {
       display: inline-block;
       margin: 0 10px;
