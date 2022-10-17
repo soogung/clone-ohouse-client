@@ -19,12 +19,12 @@
     }
 }
 .product-article-total{
+    width: 1256px;
+    min-width: 1256px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px; 
     .productarticle-header{
-        width: 1256px;
-        min-width: 1256px;
-        height: 80px;
-      
-        margin: 0 auto;
         padding: 10px 60px;
         display: flex;
         justify-content: space-between;
@@ -47,5 +47,20 @@
     width: 100vw;
 }
 .productarticle-section{
+    width: 1256px;
     margin-top: 50px;
+    margin: 0 auto;
+    padding: 10px 60px;
+    .article-tit{
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;   
+        flex-wrap: wrap;
+        gap: 22px 0;
+        width: 100%;
+    }
+}
+
+.sub-category-section{
+    margin-top:  40px;
 }

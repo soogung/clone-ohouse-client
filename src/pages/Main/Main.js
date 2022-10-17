@@ -32,13 +32,11 @@ export default function Main() {
                     ))
                 }
             </div>
-            <div>
-                <div className='product-article-total'>
-                    <header className='productarticle-header'>
-                        <h1>오늘의 딜</h1>
-                        <a>더보기</a>
-                    </header>
-                </div>
+            <div className='product-article-total'>
+                <header className='productarticle-header'>
+                    <h1>오늘의 딜</h1>
+                    <a>더보기</a>
+                </header>
             </div>
             <section className='productarticle-section'>
                 <div className='article-tit'>
@@ -58,27 +56,33 @@ export default function Main() {
                     }
                 </div>
             </section>
-            <div className='sub-category-subcate'>
-                <a className='sub-category-categorytit'>카테고리</a>
-                <Swiper
-                    spaceBetween={10}
-                    slidesPerView={10}
-                    slidesPerGroup={10}
-                    navigation
-                >
-                    {
-                        SubCateData.category.map(ca => (
-                            <SwiperSlide>
-                                <SubCate
-                                    image={ca.img}
-                                    name={ca.name}
-                                />
-                            </SwiperSlide>
-                        ))
-                    }
-                </Swiper>
+            <section className='sub-category-section'>
+                <div className='sub-category-subcate'>
+                    <a className='sub-category-categorytit'>카테고리</a>
+                    <Swiper
+                        spaceBetween={10}
+                        slidesPerView={10}
+                        slidesPerGroup={10}
+                        navigation
+                    >
+                        {
+                            SubCateData.category.map(ca => (
+                                <SwiperSlide>
+                                    <SubCate
+                                        image={ca.img}
+                                        name={ca.name}
+                                    />
+                                </SwiperSlide>
+                            ))
+                        }
+                    </Swiper>
+                </div>
+            </section>
+            <div className='product-article-total'>
+                <header className='productarticle-header'>
+                    <h1>인기상품</h1>
+                </header>
             </div>
-            <div></div>
             <Footer />
         </section>
     )

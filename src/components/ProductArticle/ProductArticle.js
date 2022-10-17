@@ -24,7 +24,10 @@ export default function ProductArticle(props) {
             <div className='oneproduct-in'>
                 <article>
                     <div className='productarticle-img'>
-                        <div>
+                        <div className='productarticle-img-day'>
+                            <span>6일 남음</span>
+                        </div>
+                        <div className='productarticle-img-img'>
                             <img src={props.mainImage.imageUri} />
                         </div>
                     </div>
