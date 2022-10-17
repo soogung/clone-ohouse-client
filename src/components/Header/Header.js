@@ -30,7 +30,7 @@ export default function Header() {
                             </g>
                         </svg>
                     </div>
-                </div>
+                </div></Link>
                 <div className="header-nav">
                     <a>
                         <span>
