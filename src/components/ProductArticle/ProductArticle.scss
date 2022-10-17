@@ -71,8 +71,7 @@
                         word-break: break-all;
                         font-size: 13px;
                         font-weight: 400;
-                        line-height: 17px;
-                        color: #000;
+                        line-height: 17px;  
                         transition: opacity .1s;
                         overflow: hidden;
                         text-overflow: ellipsis;
@@ -127,6 +126,16 @@
                         }
                     }
                 }
+            }
+        }
+        &:hover{
+            cursor: pointer;
+            .productarticle-img-img{        
+                transform: scale(1.1);
+                transition: transform .2s;
+            }
+            .info-h1-name{
+                color: gray;
             }
         }
     }
