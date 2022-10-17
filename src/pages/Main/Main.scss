@@ -1,41 +1,47 @@
-.Main-section{
+.Main-section {
     position: relative;
     top: 80px;
 }
-.main-category-maincate{
+
+.main-category-maincate {
     display: flex;
     justify-content: center;
 }
-.sub-category-subcate{
+
+.sub-category-subcate {
     width: 1256px;
     min-width: 1256px;
     padding: 10px 60px;
     margin: 0 auto;
-    .sub-category-categorytit{
-        
+
+    .sub-category-categorytit {
+
         font-weight: 700;
         font-size: 20px;
         margin-bottom: 14px;
     }
 }
-.product-article-total{
+
+.product-article-total {
     width: 1256px;
     min-width: 1256px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 20px; 
-    .productarticle-header{
+    margin-bottom: 20px;
+
+    .productarticle-header {
         padding: 10px 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-      
-        h1{
+
+        h1 {
             color: #000;
             font-weight: 700;
             font-size: 20px;
         }
-        a{
+
+        a {
             margin-right: 7px;
             color: #f77;
             font-weight: 700;
@@ -43,24 +49,81 @@
         }
     }
 }
-.main-nav{
+
+.main-nav {
     width: 100vw;
 }
-.productarticle-section{
+
+.productarticle-section {
     width: 1256px;
     margin-top: 50px;
     margin: 0 auto;
     padding: 10px 60px;
-    .article-tit{
+
+    .article-tit {
         padding: 0px 10px;
         display: flex;
-        justify-content: space-between;   
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 22px 0;
         width: 100%;
     }
 }
 
-.sub-category-section{
-    margin-top:  40px;
+.sub-category-section {
+    margin-top: 40px;
+}
+
+.product-article-total-super {
+    width: 1256px;
+    min-width: 1256px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    .productarticle-header-super {
+        padding: 10px 60px;
+        align-items: center;
+
+        h1 {
+            color: #000;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .productarticle-super {
+            margin-bottom: 15px;
+            .productarticle-super-div {
+                margin: 0;
+                .productarticle-super-div-div {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 5px 0;
+                    overflow: auto;
+                    ul {
+                        flex: 0 0 auto;
+                        min-width: 0;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                        white-space: nowrap;
+                        li {
+                        }
+                        .baesong{
+                            font-size: 15px;
+                            line-height: 19px;
+                            padding: 7px 8px 6px;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#productarticle-section-super {
+    .productarticle-img-day {
+        display: none;
+    }
 }

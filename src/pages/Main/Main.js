@@ -12,6 +12,7 @@ import "swiper/scss";
 import Footer from '../../components/Footer/Footer';
 import ProductArticle from '../../components/ProductArticle/ProductArticle';
 import ProductData from './productarticle.json';
+import ProductIngiData from './productingi.json'
 export default function Main() {
     SwiperCore.use([Navigation])
     return (
@@ -58,7 +59,7 @@ export default function Main() {
             </section>
             <section className='sub-category-section'>
                 <div className='sub-category-subcate'>
-                    <a className='sub-category-categorytit'>카테고리</a>
+                    <h1 className='sub-category-categorytit'>카테고리</h1>
                     <Swiper
                         spaceBetween={10}
                         slidesPerView={10}
@@ -78,11 +79,41 @@ export default function Main() {
                     </Swiper>
                 </div>
             </section>
-            <div className='product-article-total'>
-                <header className='productarticle-header'>
+            <div className='product-article-total-super'>
+                <header className='productarticle-header-super'>
                     <h1>인기상품</h1>
+                    <div className='productarticle-super'>
+                        <div className='productarticle-super-div'>
+                            <div className='productarticle-super-div-div'>
+                                <ul>
+                                    <button className='baesong'>배송<svg class="icon" width="12" height="12" viewBox="0 0 12 12" fill="currentColor" preserveAspectRatio="xMidYMid meet"><path d="M6.069 6.72l4.123-3.783 1.216 1.326-5.32 4.881L.603 4.273l1.196-1.346z"></path></svg></button>
+                                </ul>
+                                <ul>
+                                    <button>인기순<svg class="caret" width="8" height="8" viewBox="0 0 8 8" preserveAspectRatio="xMidYMid meet"><path fill="#BDBDBD" d="M0 2l4 4 4-4z"></path></svg></button>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </header>
             </div>
+            <section className='productarticle-section' id='productarticle-section-super'>
+                <div className='article-tit'>
+                    {
+                        ProductIngiData.products.map(p => (
+                            <ProductArticle
+                                id={p.id}
+                                name={p.name}
+                                isDiscount={p.isDiscout}
+                                discountDegree={p.discountDegree}
+                                mainImage={p.mainImage}
+                                price={p.price}
+                                discountedPrice={p.discountedPrice}
+                                company={p.company}
+                            />
+                        ))
+                    }
+                </div>
+            </section>
             <Footer />
         </section>
     )
