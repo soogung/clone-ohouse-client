@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className="header_body">
             <header className="header">
-                <Link to='/'>
+          
                 <div className="logo-wrapper">
                     <div className="logo">
                         <svg
@@ -30,7 +30,7 @@ export default function Header() {
                             </g>
                         </svg>
                     </div>
-                </div></Link>
+                </div>
                 <div className="header-nav">
                     <a>
                         <span>
