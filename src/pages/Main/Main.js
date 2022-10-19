@@ -38,6 +38,7 @@ export default function Main() {
                     <h1>오늘의 딜</h1>
                     <a>더보기</a>
                 </header>
+
             </div>
             <section className='productarticle-section'>
                 <div className='article-tit'>

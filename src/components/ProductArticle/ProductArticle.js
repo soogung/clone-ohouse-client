@@ -56,5 +56,6 @@ export default function ProductArticle(props) {
                 </div>
             </div>
         </Link>
+
     )
 }
