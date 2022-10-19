@@ -79,7 +79,6 @@
     min-width: 1256px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 20px;
 
     .productarticle-header-super {
         padding: 10px 60px;
@@ -92,7 +91,7 @@
         }
 
         .productarticle-super {
-            margin-bottom: 15px;
+            margin-top: 10px;
             .productarticle-super-div {
                 margin: 0;
                 .productarticle-super-div-div {
@@ -123,6 +122,7 @@
 }
 
 #productarticle-section-super {
+    margin-bottom: 50px;
     .productarticle-img-day {
         display: none;
     }

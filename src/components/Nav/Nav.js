@@ -12,7 +12,7 @@ export default function Nav(){
                         <nav className='Nav_front_nav'>
                             <a>
                                 <div>
-                                    <li>스토어홈</li>    
+                                    <li className='storehome'>스토어홈</li>    
                                 </div>
                             </a>
                             <a>

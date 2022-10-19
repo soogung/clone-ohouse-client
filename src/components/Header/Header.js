@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className="header_body">
             <header className="header">
-          
+
                 <div className="logo-wrapper">
                     <div className="logo">
                         <svg
@@ -30,7 +30,7 @@ export default function Header() {
                             </g>
                         </svg>
                     </div>
-                </div></Link>
+                </div>
                 <div className="header-nav">
                     <a>
                         <span>
@@ -68,6 +68,7 @@ export default function Header() {
                         <span className="_chevron_down_18 down-icon" />
                     </button>
                 </div>
-            </header></div>
+            </header>
+        </div >
     );
 }
