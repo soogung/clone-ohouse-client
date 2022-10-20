@@ -1,0 +1,47 @@
+{
+    "delivery": {
+      "deliveryType": "BASIC",
+      "freeShippingPrice": 0,
+      "price": 0
+    },
+    "discountDegree": 0.4,
+    "images": [
+      {
+        "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+      },
+      {
+        "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/images/166020660922126288.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+      },
+      {
+        "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/images/166020661246625208.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+      },
+      {
+        "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/images/166063172422033643.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+      },
+  
+      {
+        "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/images/166020661525808353.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+      }
+    ],
+    "isDiscount": true,
+    "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+    "productOption": [
+      {
+        "detailProducts": [
+          {
+            "name": "블랙",
+            "price": 301000
+          },
+          {
+            "name": "크림화이트",
+            "price": 301000
+          },
+          {
+            "name": "스카이블루",
+            "price": 301000
+          }
+        ],
+        "option": "단독할인 옵션 선택"
+      }
+    ]
+}
