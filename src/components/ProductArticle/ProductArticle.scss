@@ -58,15 +58,14 @@
 
                 .productarticle-info-h1 {
                     margin: 9px 0 0;
-
                     .info-h1-company {
                         display: block;
                         color: $dark-gray;
                         font-size: 11px;
                     }
-
+                    
+                    color: black;
                     .info-h1-name {
-                        color: #000;
                         max-height: 34px;
                         margin-top: 5px;
                         word-break: break-all;
@@ -135,6 +134,7 @@
                 transform: scale(1.1);
                 transition: transform .2s;
             }
+            
             .info-h1-name{
                 color: $serve-gray;
             }

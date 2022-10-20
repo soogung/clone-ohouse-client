@@ -1,3 +1,5 @@
+@import '../../styles/common.scss';
+
 .Main-section {
     position: relative;
     top: 80px;
@@ -92,29 +94,83 @@
 
         .productarticle-super {
             margin-top: 10px;
+
             .productarticle-super-div {
                 margin: 0;
+
                 .productarticle-super-div-div {
                     display: flex;
                     justify-content: space-between;
                     padding: 5px 0;
                     overflow: auto;
-                    ul {
+
+                    .ingiul {
                         flex: 0 0 auto;
                         min-width: 0;
                         margin: 0;
                         padding: 0;
                         list-style: none;
                         white-space: nowrap;
-                        li {
-                        }
-                        .baesong{
+
+                        .baesong {
                             font-size: 15px;
                             line-height: 19px;
                             padding: 7px 8px 6px;
                             border-radius: 4px;
                         }
+
+                        .ingison {
+                            cursor: pointer;
+
+                            &:hover {
+                                .product-list-cate {
+                                    display: block;
+                                }
+                            }
+
+                            .product-list-cate {
+                                display: none;
+                                z-index: 10;
+                                width: 198px;
+                                position: absolute;
+                                top: 1410px;
+                                left: 1140px;
+                                border-radius: 40px;
+                                box-shadow: 0 1px 19px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+                                ul {
+                                    .cate-ingisoon {
+                                        color: $font-blue;
+                                        font-weight: 600;
+                                    }
+
+                                    li {
+                                        display: block;
+                                        position: relative;
+                                        width: 100%;
+                                        margin: 0;
+                                        padding: 15px;
+                                        box-sizing: border-box;
+                                        border: none;
+                                        background-color: #fff;
+                                        color: #424242;
+                                        font-family: inherit;
+                                        font-weight: 400;
+                                        font-size: 15px;
+                                        line-height: 18px;
+                                        text-decoration: none;
+                                        text-align: left;
+                                        cursor: pointer;
+
+                                        &:hover {
+                                            background-color: #effbff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
+
                 }
             }
         }
@@ -123,6 +179,7 @@
 
 #productarticle-section-super {
     margin-bottom: 50px;
+
     .productarticle-img-day {
         display: none;
     }
