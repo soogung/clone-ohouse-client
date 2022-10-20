@@ -53,7 +53,7 @@ export default function Login_main() {
       </div>
       <div className="login-option-div">
         <a>비밀번호 재설정</a>
-        <a>회원가입</a>
+        <Link to="/signup">회원가입</Link>
       </div>
       <div className="sns-signup-div">
         <a>SNS계정으로 간편 로그인/회원가입</a>
