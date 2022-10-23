@@ -8,8 +8,6 @@ import {useParams} from "react-router-dom";
 
 export default function ProduceDetail(props) {
 
-    
-
     return (
         <section className="detail-section">
             <div>{props.name}</div>
