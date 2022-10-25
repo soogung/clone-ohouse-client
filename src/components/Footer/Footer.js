@@ -1,5 +1,6 @@
 import './Footer.scss';
 export default function Footer(){
+    if (window.location.pathname === '/login' || window.location.pathname === '/signup') return null;
     return(
         <footer>
             <div className='footer-isle'>
