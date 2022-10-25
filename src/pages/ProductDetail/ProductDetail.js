@@ -1,16 +1,21 @@
-import "./ProductDetail.scss";
-import DetailData from './productDetail.json';
-import {useContext, useState} from "react";
-import {CartContext, UserContext} from "../../App";
-import {useParams} from "react-router-dom";
-// import {getProductDetailById} from "./getProductDetailService";
-// import {checkObjectIsEmpty} from "../../utils/checkObjectIsEmpty";
-
-export default function ProduceDetail(props) {
+import DetailPage from "./ProductDetailPage";
+import DetailData from "./productDetail.json";
+import './ProductDetailPage.scss';
+export default function ProduceDetail() {
 
     return (
-        <section className="detail-section">
-            <div>{props.name}</div>
+        <section className="detailpage-section">  
+             {
+                        DetailData.data.map(d => (
+                            <DetailPage
+                                deliverytype={d.delivery}
+                                discountdegree={d.discountDegree0}
+                                images={d.images}
+                                name={d.name}
+                                productOption={d.productOption}
+                            />
+                        ))
+                    }
         </section>
     )
 }
