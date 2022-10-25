@@ -1,16 +1,22 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Main from './pages/Main/Main';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Main from "./pages/Main/Main";
+import Login from "./pages/Login/Login";
+import Signup from "./pages/Signup/Signup";
 import Header from "./components/Header/Header";
-import ProduceDetail from './pages/ProductDetail/ProductDetail';
+import Footer from "./components/Footer/Footer";
+import ProductDetail from "./pages/ProductDetail/ProductDetail";
 function App() {
     return (
         <div className="App">
-            <Header/>
             <BrowserRouter>
+                <Header/>
                 <Routes>
                     <Route path="/" element={<Main/>}/>
-                    <Route path="/detail" element={<ProduceDetail/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/signup" element={<Signup/>}/>
+                    <Route path="/detail" element={<ProductDetail />} />
                 </Routes>
+                <Footer/>
             </BrowserRouter>
         </div>
     );

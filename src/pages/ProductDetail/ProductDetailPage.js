@@ -4,6 +4,7 @@ export default function ProductDetailPage(props){
         <section>
             <div>
                 {props.name}
+                {props.images.imageUri}
             </div>
         </section>
     )
