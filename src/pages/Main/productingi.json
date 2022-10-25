@@ -1,0 +1,148 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 2,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 3,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 4,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 5,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 6,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 7,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 8,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 9,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 10,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 11,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        },
+        {
+            "id": 12,
+            "name": "아이닉 대용량 스텐 에어프라이어 3colors",
+            "isDiscount": true,
+            "discountDegree": 10,
+            "mainImage": {
+                "imageUri": "https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166063170056915119.jpg?gif=1&w=1280&h=1280&c=c&webp=1"
+            },
+            "price": 3000,
+            "discountedPrice": 2700,
+            "company": "아이닉"
+        }
+    ]
+}
