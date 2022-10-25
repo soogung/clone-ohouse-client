@@ -1,8 +1,10 @@
 import "./Header.scss";
-import { Link } from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 
 export default function Header() {
-  if (window.location.pathname === '/login' || window.location.pathname === '/signup') return null;
+  const location= useLocation();
+  if (location.pathname === '/login' || location.pathname === '/signup') return null;
+
   return (
     <div className="header_body">
       <header className="header">
