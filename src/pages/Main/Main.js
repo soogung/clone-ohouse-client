@@ -128,7 +128,6 @@ export default function Main() {
                     }
                 </div>
             </section>
-            <Footer />
         </section>
     )
 }

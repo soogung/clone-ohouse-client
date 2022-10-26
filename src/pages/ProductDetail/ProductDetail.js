@@ -9,10 +9,10 @@ export default function ProductDetail() {
                 DetailData.data.map(d => (
                     <DetailPage
                         deliverytype={d.delivery}
-                        discountdegree={d.discountDegree0}
+                        discountdegree={d.discountDegree}
                         images={d.images}
                         name={d.name}
-                        productOption={d.productOption}
+                        productoption={d.productOption}
                     />
                 ))
             }
