@@ -1,4 +1,4 @@
-@import "../../styles/common";  
+@import "../../styles/common";
 .nav_body{
     display: flex;
     justify-content: center;
@@ -19,22 +19,22 @@
         .Nav_front{
             .Nav_front_nav{
                 a{
-                    div{  
-                        .storehome{
+                    div{
+                        .storehome {
                             color:$font-blue;
                         }
                         float: left;
                         padding: 4px;
                         li{
                             margin: 0 5px;
-                        
+
                             list-style: none;
                             font-size: 16px;
                             line-height: 20px;
                             position: relative;
                             font-weight: 500;
-                           
-                        
+
+
                           &:hover{
                                 color: $font-blue;
                                 cursor: pointer;
@@ -46,7 +46,7 @@
                             li{
                                 float: left;
                                 img{
-                                    
+
                                 }
                                 span{
 
@@ -61,8 +61,8 @@
                 // .nav-category:hover .nav-category--category{
                 //     display: block;
                 // }
-            }  
-        } 
+            }
+        }
         .Nav_back{
             .Nav_back_a{
                 color: $font-blue;
