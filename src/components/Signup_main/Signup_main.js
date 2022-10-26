@@ -66,10 +66,44 @@ export default function Signup_main() {
         <h1 className="signup-pswd-h1">약관동의</h1>
         <div className="agreed-term-div">
           <label>
-            <input type="checkbox" className="signup-term-input"></input>{" "}
-            전체동의
+            <div className="term-underbar">
+              <input type="checkbox" className="signup-term-input"></input>
+              <p className="term-p">전체동의</p>
+              <p className="term-sub-p">선택항목에 대한 동의 포함</p>
+            </div>
+            <div className="termbox">
+              <input type="checkbox" className="termbox-check"></input>
+              <p className="termbox-p">만 14세 이상입니다</p>
+              <p className="pilsu">(필수)</p>
+            </div>
+            <div className="termbox">
+              <input type="checkbox" className="termbox-check"></input>
+              <p className="termbox-p">이용약관</p>
+              <p className="pilsu">(필수)</p>
+            </div>
+            <div className="termbox">
+              <input type="checkbox" className="termbox-check"></input>
+              <p className="termbox-p">개인정보 수집 및 이용동의</p>
+              <p className="pilsu">(필수)</p>
+            </div>
+            <div className="termbox">
+              <input type="checkbox" className="termbox-check"></input>
+              <p className="termbox-p">개인정보 마케팅 및 활용동의</p>
+              <p className="choice">(선택)</p>
+            </div>
+            <div className="termbox">
+              <input type="checkbox" className="termbox-check"></input>
+              <p className="termbox-p">
+                이벤트, 쿠폰, 특가, 알림 메일 및 SMS 등 수신
+              </p>
+              <p className="choice">(선택)</p>
+            </div>
           </label>
         </div>
+        <button className="signup-button">회원가입하기</button>
+        <p className="have-you-id">
+          이미 아이디가 있으신가요? <Link to="/login">로그인 화면으로</Link>
+        </p>
       </div>
     </>
   );
