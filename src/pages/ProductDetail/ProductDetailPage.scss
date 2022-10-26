@@ -1,3 +1,24 @@
-.detailpage-section{
+@import "../../styles/common";
+
+.detail-page-section {
     padding-top: 120px;
+
+    .detail-page-left {
+        .detail-page-left-small-picture {
+            img {
+                width: 56px;
+                height: 56px;
+                border-radius: 4px;
+            }
+
+            .selected {
+                border: 2px solid $font-blue;
+            }
+        }
+
+        .detail-page-left-selected-image {
+            border-radius: 10px;
+        }
+    }
 }
+
