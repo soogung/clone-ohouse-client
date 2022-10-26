@@ -7,8 +7,8 @@ export default function Signup_head() {
       <div className="signup-logo-div">
         <Link to="/">
           <svg
-            width="88"
-            height="31"
+            width="140"
+            height="50"
             viewBox="0 0 147 50"
             preserveAspectRatio="xMidYMid meet"
             class="css-1ekfro2 ebon26m3"
