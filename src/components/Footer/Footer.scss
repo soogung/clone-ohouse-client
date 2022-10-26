@@ -2,8 +2,6 @@
 .footer-isle{
     background-color: #F7F9FA;
     width: 100%;
-    position: relative;
-    bottom: 0;
 }
 footer{
     width: 100vw;
@@ -19,7 +17,7 @@ footer{
                     font-weight: 700;
                 }
                 span{
-    
+
                 }
             }
             .footer-tit-first-phonenumber{
@@ -54,11 +52,11 @@ footer{
         .footer-tit-div-fourth{
             padding-top: 2px;
             ul{
-                #footer-li{ 
+                #footer-li{
                     float: left;
                 }
                 li{
-                    
+
                     font-size: 10px;
                     line-height: 14px;
                     padding-top: 2px;
@@ -70,7 +68,7 @@ footer{
                 }
             }
         }
-        
+
         .footer-tit-div-fifth{
             margin-top: 10px;
             span{
@@ -78,7 +76,7 @@ footer{
                 color: $dark-gray;
             }
         }
-        
+
         .footer-tit-div-sixth{
             margin-top: 10px;
             margin-right: 8px;
@@ -88,7 +86,7 @@ footer{
                 color: $dark-gray;
             }
         }
-        
+
         .footer-tit-div-seventh{
             margin-top: 10px;
             span{
@@ -96,7 +94,7 @@ footer{
                 font-size: 10px;
             }
         }
-        
+
         .footer-tit-div-eight{
             margin-top: 26px;
             gap: 20px;

@@ -6,16 +6,16 @@ import MainCateData from "./maincategory.json";
 import MainCate from "../../components/MainCate/MainCate";
 import SubCateData from "../../components/Nav/category.json";
 import SubCate from "../../components/SubCate/SubCate";
-import { SwiperSlide, Swiper } from "swiper/react";
-import SwiperCore, { Navigation } from 'swiper';
+import {Swiper, SwiperSlide} from "swiper/react";
+import SwiperCore, {Navigation} from 'swiper';
 import "swiper/scss";
-import Footer from '../../components/Footer/Footer';
 import ProductArticle from '../../components/ProductArticle/ProductArticle';
 import ProductData from './productarticle.json';
 import ProductIngiData from './productingi.json'
+
 export default function Main() {
     SwiperCore.use([Navigation])
-    
+
     return (
         <section className='Main-section'>
             <div className='main-nav'>
@@ -128,7 +128,6 @@ export default function Main() {
                     }
                 </div>
             </section>
-            <Footer />
         </section>
     )
 }
