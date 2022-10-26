@@ -46,48 +46,42 @@
 }
 
 .login-option-div {
-  padding-top: 18px;
-  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 22px;
+  justify-content: center;
+
   a {
-    margin: 10px;
-    color: black;
+    font-size: 15px;
+    color: #424242;
   }
 }
 
 .sns-signup-div {
   padding-top: 20px;
   text-align: center;
-  a {
-    font-size: 12px;
-    color: #757575;
-  }
+  font-size: 12px;
+  color: #757575;
 }
 
 .sns-icon {
   display: flex;
+  gap: 20px;
+  justify-content: center;
   padding-top: 15px;
-  width: 204px;
-  height: 116px;
   margin: 0 auto;
 }
 
-.facebook-div {
-  margin: 0 auto;
-}
-
-.kakaotalk-div {
-  margin: 0 auto;
-}
-
-.naver-div {
-  margin: 0 auto;
+.sns-item {
+  cursor: pointer;
 }
 
 .login-problem-div {
   color: rgb(194, 200, 204);
   font-size: 14px;
   text-align: center;
-  margin-top: -20px;
+  margin-top: 24px;
 }
 
 .grey-line-div {
@@ -96,4 +90,22 @@
   width: 15%;
   height: 10px;
   border-bottom: 1px solid rgb(194, 200, 204);
+}
+
+.order-inquiry-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.order-inquiry-button {
+  background-color: white;
+  font-size: 15px;
+  color: #424242;
+}
+
+.copyright-div {
+  font-size: 10px;
+  text-align: center;
+  color: #757575;
+  margin: 30px 0 25px 0;
 }
