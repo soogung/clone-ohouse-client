@@ -4,9 +4,30 @@ import Logo from "../../common/Logo";
 import {Facebook, KakaoTalk, Naver} from "../Sns";
 import Login_hide from "../Login_hide/Login_hide";
 import {useState} from "react";
+import {customAxios} from "../../../config/axiosConfig";
 
 export default function Login_main() {
     const [show, setShow] = useState(false);
+    const [request, setRequest] = useState({})
+
+    const handleChange = e => {
+        setRequest({
+            ...request,
+            [e.target.name]: e.target.value
+        })
+    }
+
+    const login = async () => {
+        try {
+            console.log('ehla?')
+            const res = await customAxios.post("/auth/login", request);
+            localStorage.setItem("token", res.data.accessToken)
+            window.location.href = "/"
+        } catch (error) {
+            alert(error.response.data.status + ": " + error.response.data.message);
+        }
+    }
+
     return (
         <>
             <div>
@@ -22,6 +43,7 @@ export default function Login_main() {
                             name="email"
                             position="top"
                             placeholder="이메일"
+                            onChange={handleChange}
                         />
                     </div>
                     <div className="login-text-input">
@@ -30,11 +52,16 @@ export default function Login_main() {
                             name="password"
                             position="bottom"
                             placeholder="비밀번호"
+                            onChange={handleChange}
                         />
                     </div>
                 </div>
                 <div className="login-button-div">
-                    <button className="login-button">로그인</button>
+                    <button
+                        className="login-button"
+                        onClick={login}
+                    >로그인
+                    </button>
                 </div>
                 <div className="login-option-div">
                     <a>비밀번호 재설정</a>
