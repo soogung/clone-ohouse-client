@@ -1,10 +1,10 @@
 import "./Login_main.scss";
 import {Link} from "react-router-dom";
-import Logo from "../../common/Logo";
 import {Facebook, KakaoTalk, Naver} from "../Sns";
 import Login_hide from "../Login_hide/Login_hide";
 import {useState} from "react";
 import {customAxios} from "../../../config/axiosConfig";
+import {Logo} from "../../common/Logo";
 
 export default function Login_main() {
     const [show, setShow] = useState(false);
@@ -19,7 +19,6 @@ export default function Login_main() {
 
     const login = async () => {
         try {
-            console.log('ehla?')
             const res = await customAxios.post("/auth/login", request);
             localStorage.setItem("token", res.data.accessToken)
             window.location.href = "/"
