@@ -13,7 +13,7 @@ export default function Signup_head() {
             preserveAspectRatio="xMidYMid meet"
             class="css-1ekfro2 ebon26m3"
           >
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
               <path
                 fill="#35C5F0"
                 d="M38.42 0H8.35C4.03 0 0 4.02 0 8.33v33.34C0 45.98 4.03 50 8.35 50h33.41c4.33 0 8.35-4.02 8.35-8.33V8.33C50.11 4.02 46.1 0 41.76 0h-3.34z"
@@ -45,7 +45,7 @@ export default function Signup_head() {
               viewBox="0 0 48 48"
               preserveAspectRatio="xMidYMid meet"
             >
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
                 <path
                   fill="#3B5998"
                   d="M0 24C0 10.745 10.745 0 24 0s24 10.745 24 24-10.745 24-24 24S0 37.255 0 24z"
@@ -64,7 +64,7 @@ export default function Signup_head() {
               viewBox="0 0 48 48"
               preserveAspectRatio="xMidYMid meet"
             >
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
                 <path
                   fill="#FFEB00"
                   d="M0 24C0 10.745 10.745 0 24 0s24 10.745 24 24-10.745 24-24 24S0 37.255 0 24z"
@@ -83,7 +83,7 @@ export default function Signup_head() {
               viewBox="0 0 48 48"
               preserveAspectRatio="xMidYMid meet"
             >
-              <g fill="none" fill-rule="evenodd">
+              <g fill="none" fillRule="evenodd">
                 <path
                   fill="#00C63B"
                   d="M0 24C0 10.745 10.745 0 24 0s24 10.745 24 24-10.745 24-24 24S0 37.255 0 24z"
