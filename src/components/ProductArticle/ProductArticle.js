@@ -25,7 +25,7 @@ export default function ProductArticle(props) {
     return (
         <Link to={`/product/${props.id}`}>
             <div className='oneproduct'>
-                <div className='oneproduct-in'>
+                <div className='oneproduct-in'>   
                     <article>
                         <div className='productarticle-img'>
                             <div className='productarticle-img-day'>
