@@ -101,10 +101,18 @@ export default function ProductDetail() {
                                 </span>
                             </div>
                         </div>
+                        <div className='product-select'>
+                            <select>
+                                <option>제품 선택</option>
+                            </select>
+                        </div>
+                        <div>
+                            <span>주문금액</span>
+                            <span>0원</span>
+                        </div>
                         <div className="product-order-button">
                             <button className="product-order-button-cart">장바구니</button>
                             <button className="product-order-button-now">바로구매</button>
-                        </div>
                     </div>
                 </div>
             </div>
