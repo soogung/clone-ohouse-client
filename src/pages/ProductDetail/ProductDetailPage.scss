@@ -1,24 +1,177 @@
 @import "../../styles/common";
 
-.detail-page-section {
+.detailpage-section {
+    width: 1256px;
+    margin: 0 auto;
+    top: 120px;
     padding-top: 120px;
 
-    .detail-page-left {
-        .detail-page-left-small-picture {
-            img {
-                width: 56px;
-                height: 56px;
-                border-radius: 4px;
+    .detail-page-section {
+        width: 100%;
+        padding: 10px 60px;
+
+        .detail-page-left {
+            width: 55%;
+            display: inline-block;
+
+            .detail-page-left-small-picture {
+                display: flex;
+                flex-direction: column;
+                padding-right: 10px;
+
+                img {
+                    margin: 0 0 8px;
+                    width: 56px;
+                    height: 56px;
+                    border-radius: 4px;
+                }
+
+                .selected {
+                    border: 2px solid $font-blue;
+
+                }
+
+                float: left;
             }
 
-            .selected {
-                border: 2px solid $font-blue;
+            .detail-page-left-selected-image {
+                display: inline-block;
+
+                img {
+                    border-radius: 10px;
+                    width: 558px;
+                }
             }
         }
 
-        .detail-page-left-selected-image {
-            border-radius: 10px;
+        .detailpage-right {
+            float: right;
+            width: 45%;
+            padding-left: 40px;
+
+            .detail-right {
+                p {
+                    width: 380px;
+                    display: inline-block;
+
+                    .deatil-product-company {
+                        color: #656e75;
+                        font-weight: 700;
+                        font-size: 15px;
+                    }
+
+                    .deatil-product-name {
+                        font-size: 22px;
+                        line-height: 33px;
+                        min-height: 43px;
+                        margin: 0 92px 0 0;
+                    }
+                }
+
+                .detail-product-header-button {
+                    display: inline-flex;
+                    position: relative;
+                    left: 200px;
+                    bottom: 60px;
+
+                    .detali-product-bookmark {
+                        text-align: center;
+
+                        svg {}
+
+                        .bookmark-num {
+                            font-size: 10px;
+                            position: relative;
+                            bottom: 10px;
+                        }
+                    }
+
+                    .detial-product-share {
+                        position: relative;
+                        right: 200px;
+                    }
+                }
+
+                .product-detail-price-discount {
+                    .discoutprice-top {
+                        position: relative;
+                        bottom: 40px;
+                    }
+
+                    .product-detail-discountpercent {
+                        color: #656e75;
+                        font-size: 16px;
+                        line-height: 19px;
+                        padding-right: 6px;
+                    }
+
+                    .product-detail-realprice {
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-decoration: line-through;
+                        color: #8e969c;
+                    }
+
+                    .product-detail-discountprice {
+                        font-size: 30px;
+                        margin-right: 4px;
+                        position: relative;
+                        bottom: 30px;
+
+                        .price-jabchae {
+                            font-weight: 700;
+                        }
+                    }
+
+                    .product-detail-price-price-two {
+                        .product-detail-realprice {
+                            font-size: 30px;
+                            margin-right: 4px;
+                            position: relative;
+                            bottom: 30px;
+
+                            .price-jabchae {
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+
+                .hr-detail {
+                    position: relative;
+                    bottom: 30px;
+                    color: #a2aaaf;
+                    width: 480px;
+                }
+
+                .jaepum-choice {
+                    .product-detail-choice-company {
+                        font-size: 15px;
+                        font-weight: bold;
+                        line-height: 22px;
+                        color: #525b61;
+                        position: relative;
+                        bottom: 5px;
+                        left: 5px;
+                    }
+
+                    .brand-home {
+                        float: right;
+                        width: 85px;
+                        padding: 4px 8px 4px 12px;
+                        border-radius: 14px;
+                        background-color: #f5f5f5;
+                        margin-left: 10px;
+                        span {
+                            color: #828c94;
+                            font-size: 13px;
+                            line-height: 19px;
+                            font-weight: bold;
+                            padding-bottom: 1px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
-
