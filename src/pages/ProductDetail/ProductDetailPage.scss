@@ -143,6 +143,23 @@
                     background-color: $light-gray;
                     width: 480px;
                 }
+                
+                .product-jumun-money{
+                    position: relative;
+                    top: 40px;
+                    display: flex;
+                    justify-content: space-between;
+                    .jumun-span{
+                        flex: 0 0 auto;
+                        font-weight: 700;
+                        color: #000;    
+                        
+                    }
+                    .money{
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
 
                 .jaepum-choice {
                     .product-detail-choice-company {
@@ -172,6 +189,8 @@
                     }
                 }
                 .product-order-button {
+                    position: relative;
+                    top: 60px;
                     button {
                         width: 49%;
                         border: 1px solid $font-blue;

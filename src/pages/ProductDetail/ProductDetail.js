@@ -1,10 +1,10 @@
 import './ProductDetailPage.scss';
-import {useEffect, useState} from "react";
-import {customAxios} from "../../config/axiosConfig";
-import {useParams} from "react-router-dom";
+import { useEffect, useState } from "react";
+import { customAxios } from "../../config/axiosConfig";
+import { useParams } from "react-router-dom";
 
 export default function ProductDetail() {
-    const {id} = useParams();
+    const { id } = useParams();
     const [selectedImageUri, setSelectedImageUri] = useState('');
     const [product, setProduct] = useState({
         delivery: {},
@@ -19,7 +19,7 @@ export default function ProductDetail() {
     const getData = async () => {
         try {
             const res = await customAxios.get(`/product/${id}`);
-            setProduct({...res.data})
+            setProduct({ ...res.data })
             setSelectedImageUri(res.data.images[0].imageUri)
         } catch (error) {
             alert(error.response.data.status + ": " + error.response.data.message);
@@ -47,7 +47,7 @@ export default function ProductDetail() {
                         }
                     </div>
                     <div className="detail-page-left-selected-image">
-                        <img src={selectedImageUri} alt='selected-product-img'/>
+                        <img src={selectedImageUri} alt='selected-product-img' />
                     </div>
                 </div>
                 <div className='detailpage-right'>
@@ -57,19 +57,19 @@ export default function ProductDetail() {
                         <div className='detail-product-header-button'>
                             <div className='detali-product-bookmark'>
                                 <p><svg className="icon--stroke" aria-label="스크랩" width="24" height="24"
-                                     fill="currentColor"
-                                     stroke="currentColor" strokeWidth="0.5" viewBox="0 0 24 24"
-                                     preserveAspectRatio="xMidYMid meet">
+                                    fill="currentColor"
+                                    stroke="currentColor" strokeWidth="0.5" viewBox="0 0 24 24"
+                                    preserveAspectRatio="xMidYMid meet">
                                     <path
-                                        d="M11.53 18.54l-8.06 4.31A1 1 0 0 1 2 21.97V3.5A1.5 1.5 0 0 1 3.5 2h17A1.5 1.5 0 0 1 22 3.5v18.47a1 1 0 0 1-1.47.88l-8.06-4.31a1 1 0 0 0-.94 0z"/>
+                                        d="M11.53 18.54l-8.06 4.31A1 1 0 0 1 2 21.97V3.5A1.5 1.5 0 0 1 3.5 2h17A1.5 1.5 0 0 1 22 3.5v18.47a1 1 0 0 1-1.47.88l-8.06-4.31a1 1 0 0 0-.94 0z" />
                                 </svg></p>
                                 <p><span className='bookmark-num'>23,999</span></p>
                             </div>
                             <div className='detial-product-share'>
                                 <svg className="icon" aria-label="공유하기" width="24" height="24" viewBox="0 0 24 24"
-                                     fill="currentColor" preserveAspectRatio="xMidYMid meet">
+                                    fill="currentColor" preserveAspectRatio="xMidYMid meet">
                                     <path
-                                        d="M9.64 14.646a4.5 4.5 0 1 1 0-5.292l4.54-2.476a4.5 4.5 0 1 1 .63.795l-4.675 2.55c.235.545.365 1.146.365 1.777s-.13 1.232-.365 1.777l4.675 2.55a4.5 4.5 0 1 1-.63.795l-4.54-2.476zM18 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM6 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM18 23a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                                        d="M9.64 14.646a4.5 4.5 0 1 1 0-5.292l4.54-2.476a4.5 4.5 0 1 1 .63.795l-4.675 2.55c.235.545.365 1.146.365 1.777s-.13 1.232-.365 1.777l4.675 2.55a4.5 4.5 0 1 1-.63.795l-4.54-2.476zM18 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM6 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM18 23a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
                                 </svg>
 
                             </div>
@@ -78,12 +78,12 @@ export default function ProductDetail() {
                             {product.isDiscount ?
                                 <span className='product-detail-price'>
                                     <div className='discoutprice-top'>
-                                        <span className='product-detail-discountpercent'>{product.discountDegree}</span>
+                                        <span className='product-detail-discountpercent'>{product.discountDegree}%</span>
                                         <span className='product-detail-realprice'>{product.price.toLocaleString()}원</span>
                                     </div>
                                     <span className='product-detail-discountprice'><span className='price-jabchae'>{product.discountPrice.toLocaleString()}</span>원</span>
                                 </span>
-                            :
+                                :
                                 <span className='product-detail-price-price-two'>
                                     {/* <span className='product-detail-realprice'><span className='price-jabchae'>{product.price.toLocaleString()}</span>원</span> */}
                                 </span>
@@ -101,21 +101,24 @@ export default function ProductDetail() {
                                 </span>
                             </div>
                         </div>
+
                         <div className='product-select'>
                             <select>
                                 <option>제품 선택</option>
                             </select>
                         </div>
-                        <div>
-                            <span>주문금액</span>
-                            <span>0원</span>
+                        <div className='product-jumun-money'>
+                            <span className='jumun-span'>주문금액</span>
+                            <span className='money'>0원</span>
                         </div>
-                        <div className="product-order-button">
-                            <button className="product-order-button-cart">장바구니</button>
-                            <button className="product-order-button-now">바로구매</button>
+                    <div className="product-order-button">
+                        <button className="product-order-button-cart">장바구니</button>
+                        <button className="product-order-button-now">바로구매</button>
                     </div>
+                    </div>
+
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
