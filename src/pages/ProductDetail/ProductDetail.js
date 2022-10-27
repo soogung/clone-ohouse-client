@@ -101,6 +101,15 @@ export default function ProductDetail() {
                                 </span>
                             </div>
                         </div>
+                        <div className='product-select'>
+                            <select>
+                                <option>제품 선택</option>
+                            </select>
+                        </div>
+                        <div>
+                            <span>주문금액</span>
+                            <span>0원</span>
+                        </div>
                     </div>
                 </div>
             </div>
