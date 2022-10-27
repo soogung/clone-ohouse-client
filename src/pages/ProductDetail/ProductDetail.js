@@ -75,7 +75,7 @@ export default function ProductDetail() {
                             </div>
                         </div>
                         <div className='product-detail-price-discount'>
-                            {product.isDiscount ? 
+                            {product.isDiscount ?
                                 <span className='product-detail-price'>
                                     <div className='discoutprice-top'>
                                         <span className='product-detail-discountpercent'>{product.discountDegree}</span>
@@ -83,12 +83,12 @@ export default function ProductDetail() {
                                     </div>
                                     <span className='product-detail-discountprice'><span className='price-jabchae'>{product.discountPrice.toLocaleString()}</span>원</span>
                                 </span>
-                            : 
+                            :
                                 <span className='product-detail-price-price-two'>
                                     {/* <span className='product-detail-realprice'><span className='price-jabchae'>{product.price.toLocaleString()}</span>원</span> */}
                                 </span>
                             }
-                           
+
                         </div>
                         <p className='hr-detail'><hr /></p>
                         <div className='jaepum-choice'>
@@ -110,6 +110,9 @@ export default function ProductDetail() {
                             <span>주문금액</span>
                             <span>0원</span>
                         </div>
+                        <div className="product-order-button">
+                            <button className="product-order-button-cart">장바구니</button>
+                            <button className="product-order-button-now">바로구매</button>
                     </div>
                 </div>
             </div>
