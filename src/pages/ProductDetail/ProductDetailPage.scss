@@ -171,6 +171,28 @@
                         }
                     }
                 }
+
+                .product-order-button {
+                    button {
+                        width: 49%;
+                        border: 1px solid $font-blue;
+                        border-radius: 4px;
+                        font-weight: 700;
+                        padding: 13px 10px 14px;
+                        font-size: 17px;
+                        line-height: 26px;
+                    }
+                    .product-order-button-cart {
+                        color: $font-blue;
+                        background-color: white;
+                        float: left;
+                    }
+                    .product-order-button-now {
+                        color: white;
+                        background-color: $font-blue;
+                        float: right;
+                    }
+                }
             }
         }
     }
