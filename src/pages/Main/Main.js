@@ -10,11 +10,24 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import SwiperCore, {Navigation} from 'swiper';
 import "swiper/scss";
 import ProductArticle from '../../components/ProductArticle/ProductArticle';
-import ProductData from './productarticle.json';
-import ProductIngiData from './productingi.json'
+import {useEffect, useState} from "react";
+import {customAxios} from "../../config/axiosConfig";
 
 export default function Main() {
     SwiperCore.use([Navigation])
+
+    const [product, setProduct] = useState([])
+    const [popularProduct, setPopularProduct] = useState([])
+
+    const getData = async () => {
+        const res = await customAxios.get("/product");
+        setProduct(res.data.products.slice(0, 4))
+        setPopularProduct(res.data.products.slice(4))
+    }
+
+    useEffect(() => {
+        getData();
+    }, [])
 
     return (
         <section className='Main-section'>
@@ -44,7 +57,7 @@ export default function Main() {
             <section className='productarticle-section'>
                 <div className='article-tit'>
                     {
-                        ProductData.products.map(p => (
+                        product.map(p => (
                             <ProductArticle
                                 id={p.id}
                                 name={p.name}
@@ -113,7 +126,7 @@ export default function Main() {
             <section className='productarticle-section' id='productarticle-section-super'>
                 <div className='article-tit'>
                     {
-                        ProductIngiData.products.map(p => (
+                        popularProduct.map(p => (
                             <ProductArticle
                                 id={p.id}
                                 name={p.name}
